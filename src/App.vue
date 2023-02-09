@@ -40,7 +40,7 @@ const getWeather = (city) => {
 
     loading.value = false
   })
-  .catch(err => alert("エラーが発生しました。ページをリロードして、もう一度トライしてください。"))
+  .catch(err => alert("エラーが発生しました。ページをリロードしてもう一度トライしてください。"))
 }
 </script>
 
